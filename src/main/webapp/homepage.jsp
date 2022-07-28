@@ -10,6 +10,7 @@
 <body>
 	<div class="header">
 		<nav>
+			
 			<img alt="Stock System" src="logo.png">
 			<ul>
 				<li><a href="#">Home</a></li>
@@ -23,7 +24,7 @@
 		<div class="text-box">
 			<h1>Welcome</h1>
 			<p>Stock management System</p>
-			<a href="#">Log in</a>
+			<a href="#">Log out</a>
 		</div>
 		
 		<div class="user-box">
