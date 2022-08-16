@@ -1,11 +1,9 @@
 package com.stock.model;
 
-import java.io.Serializable;
 
-public class Login implements Serializable{
+public class Login{
 
 	
-	private static final long serialVersionUID = 1L;
 	private String username;
 	private String password;
 	

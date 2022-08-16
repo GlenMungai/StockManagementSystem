@@ -23,7 +23,7 @@
                     <li><a href="">Edit</a></li>
                     <li><a href="">Search</a></li>
                 </ul>
-                <a href="" class="btn">Log Out</a>
+                <a href="Form.jsp" class="btn">Log Out</a>
             </nav>
 
             <div class="row">
@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-2">
                     <h1>Stock <br><span>Management</span> System</h1>
-                    <p>This is a demo text</p>
+                    <p>Welcome!</p>
                 </div>
             </div>
 

@@ -58,10 +58,10 @@ public class LoginServlet extends HttpServlet {
 			//forwarding login object to validate method
 			if (loginDao.validate(login)) {
 				//HttpSession session = request.getSession();
-				// session.setAttribute("username",username);
+				 //session.setAttribute("username",username);
 				response.sendRedirect("homepage.jsp");
 			} else {
-				HttpSession session = request.getSession();
+				//HttpSession session = request.getSession();
 				//session.setAttribute("user", username);
 				response.sendRedirect("LoginFailed.jsp");
 			}
