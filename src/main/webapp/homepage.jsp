@@ -17,8 +17,8 @@
             <nav>
                 <img src="images/LogoMakr.png" class="logo" alt="Stock System">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li><a href="homepage.jsp">Home</a></li>
+                    <li><a href="AddProduct.jsp">Add</a></li>
                     <li><a href="">Products</a></li>
                     <li><a href="">Edit</a></li>
                     <li><a href="">Search</a></li>

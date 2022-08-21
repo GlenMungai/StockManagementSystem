@@ -1,31 +1,27 @@
-/**
- * 
- */
-const username = document.getElementById('username')
-const password = document.getElementById('password')
-const register = document.getElementById('register')
-const errorElement = document.getElementById('error')
+function message(){
+    var Name = document.getElementById('productName');
+    var category = document.getElementById('productCategory');
+    var price = document.getElementById('productPrice');
+    const success = document.getElementById('success');
+    const danger = document.getElementById('danger');
 
-form.addEventListener('submit', (e) => {
-  let messages = []
-  if (username.value === '' || username.value == null) {
-    messages.push('Name is required')
-  }
+    if(Name.value === '' || category.value === '' || price.value === ''){
+        danger.style.display = 'block';
+    }
+    else{
+        setTimeout(() => {
+            Name.value = '';
+            category.value = '';
+            price.value = '';
+        }, 2000);
 
-  if (password.value.length <= 6) {
-    messages.push('Password must be longer than 6 characters')
-  }
+        success.style.display = 'block';
+    }
 
-  if (password.value.length >= 20) {
-    messages.push('Password must be less than 20 characters')
-  }
 
-  if (password.value === 'password') {
-    messages.push('Password cannot be password')
-  }
+    setTimeout(() => {
+        danger.style.display = 'none';
+        success.style.display = 'none';
+    }, 4000);
 
-  if (messages.length > 0) {
-    e.preventDefault()
-    errorElement.innerText = messages.join(', ')
-  }
-})
+}
