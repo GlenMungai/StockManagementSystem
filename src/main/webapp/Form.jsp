@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Login and Registration form</title>
 <link rel="stylesheet" href="form.css">
-<script defer type="text/javascript" src="script.js"></script>
+
 </head>
 <body>
 	<div class="reg">
@@ -27,12 +27,14 @@
 			</form>
 	
 			<form action="<%=request.getContextPath()%>/register" id="register" class="input-group" method="post">
-				<input type="text" class="input-field" placeholder="First name" name="firstName" required>
-				<input type="text" class="input-field" placeholder="Last name" name="lastName" required>	
+				<input type="text" class="input-field" placeholder="First name" name="firstName" id="firstName" required>
+				<input type="text" class="input-field" placeholder="Last name" name="lastName" id="lastName" required>	
 				<input type="text" class="input-field" placeholder="Username" name="username" id="username" required>
-				<input type="email" class="input-field" placeholder="Email" name="email" required>
+				<input type="email" class="input-field" placeholder="Email" name="email" id="email" required>
 				<input type="password" class="input-field" placeholder="Password" name="password" id="password" required>
-				<button type="submit" class="submit-btn" id="reg" onclick="myRegister()">Register</button>
+				<button type="submit" class="submit-btn" id="reg" onclick="userregister()">Register</button>
+
+				
 			</form>
 			
 		</div>
@@ -63,6 +65,7 @@
 	}
 	
 	</script>
-
+	<script  src="script.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

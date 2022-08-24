@@ -29,7 +29,7 @@
       <button name="submit" type="submit" id="contact-submit" onclick="message()" >Add Stock</button>
     </fieldset>
      <div class="message">
-            <div class="success" id="success">Your Message Successfully Sent!</div>
+            <div class="success" id="success">Product Successfully Added!</div>
             <div class="danger" id="danger">Fields Can't be Empty!</div>
       </div>
     

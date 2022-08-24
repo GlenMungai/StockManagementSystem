@@ -25,3 +25,24 @@ function message(){
     }, 4000);
 
 }
+
+
+//user registration form function
+
+function userregister(){
+    var Name = document.getElementById('firstName');
+    var lastname = document.getElementById('lastName');
+    var username = document.getElementById('username');
+	var email = document.getElementById('email');
+	var password = document.getElementById('password');
+    
+    if(Name.value === '' || lastname.value === '' || username.value === '' || email.value === '' || password.value === ''){
+      
+		alert("Missing Fields!");
+		
+    }else{
+       	
+		alert("User Successfully Registered!");
+
+    }
+}

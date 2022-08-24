@@ -51,7 +51,7 @@ public class ProductsServlet extends HttpServlet {
 		ProductsDao pDao = new ProductsDao();
 		String result = pDao.insert(products);
 		//response.getWriter().print(result);
-		response.sendRedirect("RegSuccess.jsp");
+		response.sendRedirect("AddProduct.jsp");
 	}
 
 }
