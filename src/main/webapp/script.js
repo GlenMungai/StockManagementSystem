@@ -42,7 +42,14 @@ function userregister(){
 		
     }else{
        	
-		alert("User Successfully Registered!");
+		//alert("User Successfully Registered!");
+		
+		  swal({
+		  title: "Success!",
+		  text: "User Successfully Registered!",
+		  icon: "success",
+		  button: "OK",
+		});
 
     }
 }

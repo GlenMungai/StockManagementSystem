@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Add  Product</title>
+<title>Add Stock</title>
 <link rel="stylesheet" href="addproduct.css">
 
 </head>

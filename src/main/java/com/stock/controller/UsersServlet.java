@@ -59,7 +59,7 @@ public class UsersServlet extends HttpServlet {
 		UsersDao uDao = new UsersDao();
 		String result = uDao.insert(users);
 		//response.getWriter().print(result);
-		response.sendRedirect("RegSuccess.jsp");
+		response.sendRedirect("Form.jsp");
 		
 		
 		
